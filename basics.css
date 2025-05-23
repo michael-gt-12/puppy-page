@@ -1,0 +1,106 @@
+body{
+    margin:0px;
+}
+
+.top_bottom{
+    background-color: darkblue;
+    text-align:center;
+    color:white;
+    font-size:30px;
+}
+
+#header{
+    width:100%;
+    margin:0px;
+    padding-top:25px;
+    padding-bottom:25px;
+}
+#footer{
+    width:100%;
+    margin-top:80px;
+    padding-top:25px;
+    padding-bottom:100px;
+}
+
+#banner_image{
+    width:100%;
+    margin-bottom:80px;
+}
+
+
+.puppies{
+    display:flex;
+    justify-content: space-between;
+    width:80%;
+
+    margin-left:10%;
+}
+
+.puppies .text{
+    background-color: orangered;
+    width:34%;
+}
+
+.puppies .text p{
+    padding-left:10%;
+    padding-right:10%;
+    padding-top:5%;
+    font-size:240%;
+    text-align:center;
+}
+
+.puppies .puppy1{
+    width:32%;
+
+}
+
+.puppies .puppy1 img{
+    width:100%;
+    height:100%;
+}
+
+.puppies .puppy2{
+    width:32%;
+
+}
+
+.puppies .puppy2 img{
+    width:100%;
+    height:100%;
+}
+
+
+.more .text{
+    margin-top:40px;
+    margin-bottom:40px;
+    font-size:30px;
+    text-align:center;
+
+}
+
+
+.more .image1{
+    width:48%;
+}
+
+.more .image2{
+    width:48%;
+}
+
+.more .image1 img{
+    width:100%;
+    height:100%;
+}
+
+.more .image2 img{
+    width:100%;
+    height:100%;
+}
+
+
+
+
+
+    
+
+
