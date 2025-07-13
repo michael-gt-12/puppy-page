@@ -6,7 +6,7 @@ body{
     background-color: darkblue;
     text-align:center;
     color:white;
-    font-size:30px;
+    font-size:20px;
 }
 
 #header{
@@ -17,41 +17,21 @@ body{
 }
 #footer{
     width:100%;
-    margin-top:80px;
+    margin-top:20px;
     padding-top:25px;
     padding-bottom:100px;
 }
 
 #banner_image{
     width:100%;
-    margin-bottom:80px;
-}
-
-
-.puppies{
-    display:flex;
-    justify-content: space-between;
-    width:80%;
-
-    margin-left:10%;
-}
-
-.puppies .text{
-    background-color: orangered;
-    width:34%;
-}
-
-.puppies .text p{
-    padding-left:10%;
-    padding-right:10%;
-    padding-top:5%;
-    font-size:240%;
-    text-align:center;
+    margin-bottom:20px;
 }
 
 .puppies .puppy1{
     width:32%;
-
+    margin-bottom:20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .puppies .puppy1 img{
@@ -59,9 +39,15 @@ body{
     height:100%;
 }
 
+.puppies .text{
+    display: none;
+}
+
 .puppies .puppy2{
     width:32%;
-
+    margin-bottom:20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .puppies .puppy2 img{
@@ -69,11 +55,11 @@ body{
     height:100%;
 }
 
-
 .more .text{
-    margin-top:40px;
-    margin-bottom:40px;
-    font-size:30px;
+    width:100%;
+    margin-top:20px;
+    margin-bottom:20px;
+    font-size:15px;
     text-align:center;
 
 }
@@ -81,10 +67,16 @@ body{
 
 .more .image1{
     width:48%;
+    margin-bottom:20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .more .image2{
     width:48%;
+    margin-bottom:20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .more .image1 img{
@@ -97,7 +89,59 @@ body{
     height:100%;
 }
 
+/* first break point */
 
+ @media(min-width:700px){
+    .top_bottom{
+        font-size:30px;
+    }
+    #footer{
+        margin-top:80px;
+    }
+    #banner_image{
+        margin-bottom:80px;
+    }
+    .puppies{
+        display:flex;
+        justify-content: space-between;
+        width:84%;
+        margin-left:auto;
+        margin-right: auto;
+    } 
+    .puppies .puppy1{
+        width:32%;
+        margin-bottom:0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .puppies .puppy2{
+        width:32%;
+        margin-bottom:0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .puppies .text{
+        display: block;
+    }
+    .puppies .text{
+        background-color: orangered;
+        width: 32%;
+    }
+    .puppies .text p{
+        padding-left:10%;
+        padding-right:15%;
+        padding-top:15%;
+        padding-bottom:15%;
+        font-size:50px;
+        text-align: center;
+    }
+    .more .text{
+        margin-top:40px;
+        margin-bottom:40px;
+        font-size:27px;
+    }
+
+ }
 
 
 
